@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{CCA03E2A-8DA4-AB85-D7C4-42693F4FE7D3}") = "google ads phone", "Assembly-CSharp-firstpass.csproj", "{7E7F4AE7-414D-C6A9-3F6F-644F3D80EF47}"
+EndProject
+Project("{CCA03E2A-8DA4-AB85-D7C4-42693F4FE7D3}") = "google ads phone", "Assembly-CSharp.csproj", "{E84CB079-A59E-8AAB-5984-1B1F3CC9699C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E7F4AE7-414D-C6A9-3F6F-644F3D80EF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7F4AE7-414D-C6A9-3F6F-644F3D80EF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7F4AE7-414D-C6A9-3F6F-644F3D80EF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7F4AE7-414D-C6A9-3F6F-644F3D80EF47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84CB079-A59E-8AAB-5984-1B1F3CC9699C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84CB079-A59E-8AAB-5984-1B1F3CC9699C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84CB079-A59E-8AAB-5984-1B1F3CC9699C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84CB079-A59E-8AAB-5984-1B1F3CC9699C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+					GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.IndentWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal
