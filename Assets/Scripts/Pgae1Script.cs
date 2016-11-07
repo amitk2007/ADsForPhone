@@ -4,6 +4,7 @@ using admob;
 
 public class Pgae1Script : MonoBehaviour {
 
+	public static bool bol=true;
 	public static Admob ad;
 	void initAdmob()
 	{
@@ -18,6 +19,8 @@ public class Pgae1Script : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		initAdmob();
+		Admob.Instance ().setTesting (bol);
+		Admob.Instance ().loadInterstitial ();
 	}
 	
 	// Update is called once per frame

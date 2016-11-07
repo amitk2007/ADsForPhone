@@ -15,6 +15,7 @@ public class Page3Script : MonoBehaviour {
 
 	void OnMouseDown()
 	{
+		Pgae1Script.bol = !Pgae1Script.bol;
 			Application.LoadLevel ("page1");
 	}
 }
