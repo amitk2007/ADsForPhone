@@ -8,7 +8,6 @@ public class AdManager : MonoBehaviour {
 	public string BunnerID = "ca-app-pub-1819293788939652/2788058490";
 	public string VidoeID = "ca-app-pub-1819293788939652/6380653291";
 
-	bool AdsIsTest = true;
 	// Use this for initialization
 	private void Start () {
 
@@ -16,18 +15,13 @@ public class AdManager : MonoBehaviour {
 		DontDestroyOnLoad (gameObject);
 
 		Admob.Instance ().initAdmob (BunnerID,VidoeID);
-		if (AdsIsTest) {
-			Admob.Instance ().setTesting (true);
-		}
+
+		//	Admob.Instance ().setTesting (true);
+
 		Admob.Instance ().loadInterstitial ();
 
 	}
 
-	void OnGUI(){
-		if (GUI.Button (new Rect (0, 0, 200, 200), AdsIsTest.ToString())) {
-			AdsIsTest = !AdsIsTest;
-		}
-	}
 
 	public void ShowBunner()
 	{
