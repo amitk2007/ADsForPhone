@@ -14,6 +14,7 @@ public class GameScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (player == null) {
+			AdManager.Instance.ShowVidoe();
 			Application.LoadLevel("EndGAme 1");
 		} else {
 			if (PlayerScript.startTime!=0) {
