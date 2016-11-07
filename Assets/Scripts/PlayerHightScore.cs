@@ -11,9 +11,7 @@ public class PlayerHightScore : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		score = GameScript.scoreTime;
-		PlayerScript.startTime = 0;
-		GameScript.scoreTime = 0;
+
 			//score = playerScript.playerScore;
 		
 		highscore = PlayerPrefs.GetFloat ("highscore");

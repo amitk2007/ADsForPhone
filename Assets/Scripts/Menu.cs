@@ -9,7 +9,7 @@ public class Menu : MonoBehaviour {
 	public GameObject PointsText;
 	// Use this for initialization
 	void Start () {
-		PointsText.GetComponent<Text> ().text = GameScript.scoreTime.ToString();
+		//PointsText.GetComponent<Text> ().text = GameScript.scoreTime.ToString();
 	}
 	
 	// Update is called once per frame
