@@ -6,9 +6,10 @@ public class AdManager : MonoBehaviour {
 
 	public static AdManager Instance{ set; get;}
 	public string BunnerID = "ca-app-pub-1819293788939652/2788058490";
-	public string VidoeID = "ca - app - pub - 1819293788939652 / 6380653291";
+	public string VidoeID = "ca-app-pub-1819293788939652/6380653291";
 	// Use this for initialization
 	private void Start () {
+
 		Instance = this;
 		DontDestroyOnLoad (gameObject);
 
@@ -17,16 +18,12 @@ public class AdManager : MonoBehaviour {
 		Admob.Instance ().loadInterstitial ();
 
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
 	public void ShowBunner()
 	{
 		Admob.Instance ().showBannerRelative (AdSize.Banner, AdPosition.BOTTOM_CENTER, 0);
 	}
+
 	public void ShowVidoe()
 	{
 		if (Admob.Instance().isInterstitialReady()) {
