@@ -14,7 +14,7 @@ public class AdManager : MonoBehaviour {
 		DontDestroyOnLoad (gameObject);
 
 		Admob.Instance ().initAdmob (BunnerID,VidoeID);
-		Admob.Instance ().setTesting (true);
+		//Admob.Instance ().setTesting (true);
 		Admob.Instance ().loadInterstitial ();
 
 	}

@@ -1,12 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameScript.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AdManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\GameScript.cs" Line="11" Column="36" />
-      <File FileName="Assets\admobdemo.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Menu.cs" Line="1" Column="1" />
-      <File FileName="..\..\google ads phone\Assets\Scripts\NewBehaviourScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AdManager.cs" Line="23" Column="3" />
+      <File FileName="Assets\Scripts\AdManager.cs" Line="17" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
