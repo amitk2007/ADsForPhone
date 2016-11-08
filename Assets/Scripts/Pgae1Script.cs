@@ -19,7 +19,7 @@ public class Pgae1Script : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		initAdmob();
-		Admob.Instance ().setTesting (bol);
+		//Admob.Instance ().setTesting (bol);
 		Admob.Instance ().loadInterstitial ();
 	}
 	
