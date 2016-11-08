@@ -47,11 +47,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AdManager.cs" />
-     <Compile Include="Assets\Scripts\Menu.cs" />
-     <Compile Include="Assets\Scripts\Page2Script.cs" />
-     <Compile Include="Assets\Scripts\Page3Script.cs" />
-     <Compile Include="Assets\Scripts\Pgae1Script.cs" />
-     <Compile Include="Assets\Scripts\PlayerHightScore.cs" />
+     <Compile Include="Assets\Scripts\EndGame.cs" />
+     <Compile Include="Assets\Scripts\PreLoaderScript.cs" />
+     <Compile Include="Assets\Scripts\Script.cs" />
+     <Compile Include="Assets\Scripts\game.cs" />
      <Compile Include="Assets\admobdemo.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
  <Reference Include="UnityEngine.UI">
