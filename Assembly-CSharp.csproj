@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AdManager.cs" />
      <Compile Include="Assets\Scripts\Cub1.cs" />
+     <Compile Include="Assets\Scripts\CubePreloadre.cs" />
      <Compile Include="Assets\Scripts\EndGame.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\PreLoaderScript.cs" />

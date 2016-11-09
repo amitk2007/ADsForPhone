@@ -15,6 +15,6 @@ public class PlayerScript : MonoBehaviour {
 
     void OnMouseDown()
     {
-        Application.LoadLevel("EndGame 1");
+        Application.LoadLevel("game");
     }
 }
