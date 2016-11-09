@@ -4,6 +4,7 @@ using admob;
 
 public class AdManager : MonoBehaviour
 {
+    public static bool isVideoReady;
     public static AdManager Instance { set; get; }
 
     public string bunnerId = "ca-app-pub-1819293788939652/2866953691";
@@ -28,10 +29,12 @@ public class AdManager : MonoBehaviour
     {
         if (Admob.Instance().isInterstitialReady())
         {
+            isVideoReady = true;
             Admob.Instance().showInterstitial();
         }
         else
         {
+            isVideoReady = false;
             Admob.Instance().loadInterstitial();
         }
     }
