@@ -47,10 +47,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AdManager.cs" />
+     <Compile Include="Assets\Scripts\Cub1.cs" />
      <Compile Include="Assets\Scripts\EndGame.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\PreLoaderScript.cs" />
      <Compile Include="Assets\Scripts\Script.cs" />
+     <Compile Include="Assets\Scripts\cub3.cs" />
      <Compile Include="Assets\Scripts\game.cs" />
      <Compile Include="Assets\admobdemo.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />

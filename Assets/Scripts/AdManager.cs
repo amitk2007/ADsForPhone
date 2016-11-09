@@ -4,7 +4,7 @@ using admob;
 
 public class AdManager : MonoBehaviour
 {
-    public static bool isVideoReady;
+    public static bool isVideoReady = true;
     public static AdManager Instance { set; get; }
 
     public string bunnerId = "ca-app-pub-1819293788939652/2866953691";
