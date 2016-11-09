@@ -15,7 +15,7 @@ public class AdManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         Admob.Instance().initAdmob(bunnerId, videoId);
-        Admob.Instance().setTesting(true);
+        //Admob.Instance().setTesting(true);
         Admob.Instance().loadInterstitial();
     }
 
@@ -29,6 +29,10 @@ public class AdManager : MonoBehaviour
         if (Admob.Instance().isInterstitialReady())
         {
             Admob.Instance().showInterstitial();
+        }
+        else
+        {
+            Admob.Instance().loadInterstitial();
         }
     }
 }
